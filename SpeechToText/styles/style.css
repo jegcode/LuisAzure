@@ -1,0 +1,11 @@
+﻿body {
+}
+
+
+h1, td, button{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+textarea{
+    border-radius: 10px;
+}

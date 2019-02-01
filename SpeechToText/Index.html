@@ -1,0 +1,36 @@
+﻿<!Doctype html>
+<html>
+<head>
+    <title>Prueba Prognosis Azure</title>
+    <link href="styles/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="warning">
+        <h1 style="font-weight:500;">Speech Recognition Speech SDK not found (microsoft.cognitiveservices.speech.sdk.bundle.js missing).</h1>
+    </div>
+
+    <div id="content" style="display:none">
+        <table width="100%">
+            <tr>
+                <td></td>
+                <td><h1 style="font-weight:500;">Azure HealthCare Test</h1></td>
+            </tr>       
+            <tr>
+                <td></td>
+                <td><button id="startRecognizeOnceAsyncButton">Ask for prescription</button></td>
+            </tr>
+            <tr>
+                <td align="right" valign="top">Utterance: </td>
+                <td><textarea id="phraseDiv" style="display: inline-block;width:300px;height:100px"></textarea></td>
+            </tr>
+        </table>
+    </div>
+    <canvas id="the-canvas"></canvas>
+    <!-- SDK reference  -->
+    <script src="scripts/microsoft.cognitiveservices.speech.sdk.bundle.js"></script>
+    <!-- Speech SDK usage -->
+    <script src="scripts/scriptfront.js"></script>
+    <!-- PDF.js usage -->
+    <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script> 
+</body>
+</html>
